@@ -5,38 +5,38 @@
       "type": "table",
       "label": "Timer",
       "help": "Konfiguration mehrerer Countdown-Timer",
-      "items": {
-        "timerName": {
+      "items": [
+        {
           "type": "text",
-          "label": "Timer Name",
-          "sm": 3
+          "attr": "timerName",
+          "label": "Timer Name"
         },
-        "timerActive": {
+        {
           "type": "checkbox",
-          "label": "Aktiv",
-          "sm": 2
+          "attr": "timerActive",
+          "label": "Aktiv"
         },
-        "triggerDP": {
+        {
           "type": "state",
-          "label": "Trigger Datenpunkt",
-          "sm": 4
+          "attr": "triggerDP",
+          "label": "Trigger Datenpunkt"
         },
-        "triggerType": {
+        {
           "type": "select",
+          "attr": "triggerType",
           "label": "Trigger Typ",
           "options": [
             { "label": "Button", "value": "button" },
             { "label": "Switch", "value": "switch" }
-          ],
-          "sm": 3
+          ]
         },
-        "duration": {
+        {
           "type": "number",
+          "attr": "duration",
           "label": "Dauer (Minuten)",
-          "min": 1,
-          "sm": 2
+          "min": 1
         }
-      }
+      ]
     }
   }
 }
