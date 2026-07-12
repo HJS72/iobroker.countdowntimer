@@ -18,8 +18,16 @@
         },
         {
           "type": "state",
-          "attr": "triggerDP",
-          "label": "Trigger Datenpunkt"
+          "attr": "triggerDP_select",
+          "label": "Trigger Datenpunkt (vorhanden)",
+          "filter": {
+            "type": "boolean"
+          }
+        },
+        {
+          "type": "text",
+          "attr": "triggerDP_custom",
+          "label": "Trigger Datenpunkt (neu anlegen)"
         },
         {
           "type": "select",
@@ -40,4 +48,3 @@
     }
   }
 }
-
