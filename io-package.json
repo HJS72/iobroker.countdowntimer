@@ -1,0 +1,36 @@
+{
+  "common": {
+    "name": "countdowntimer",
+    "version": "0.0.2",
+    "title": "Countdown Timer",
+    "titleLang": {
+      "en": "Countdown Timer",
+      "de": "Countdown Timer"
+    },
+    "authors": [
+      "Stefan"
+    ],
+    "mode": "daemon",
+    "platform": "Javascript/Node.js",
+    "enabled": true,
+    "loglevel": "info",
+    "adminUI": {
+      "config": "json"
+    },
+    "readme": "README.md",
+    "license": "MIT"
+  },
+  "native": {
+    "timers": [
+      {
+        "timerName": "Timer 1",
+        "timerActive": false,
+        "triggerDP": "",
+        "triggerType": "button",
+        "duration": 5
+      }
+    ]
+  },
+  "objects": []
+}
+

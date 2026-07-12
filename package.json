@@ -1,0 +1,22 @@
+{
+  "name": "iobroker.countdowntimer",
+  "version": "0.0.2",
+  "description": "Countdown Timer Adapter mit mehreren Timern",
+  "author": "Stefan",
+  "license": "MIT",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DEIN_USER/iobroker.countdowntimer.git"
+  },
+  "keywords": [
+    "ioBroker",
+    "adapter",
+    "countdown",
+    "timer"
+  ],
+  "dependencies": {
+    "@iobroker/adapter-core": "^3.0.0"
+  }
+}
+
